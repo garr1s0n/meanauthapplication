@@ -1,0 +1,11 @@
+{
+  "name": "meanauthapplication",
+  "version": "1.0.0",
+  "description": "MEAN Stack Authentication App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gary Wilpizeski",
+  "license": "ISC"
+}
