@@ -4,8 +4,19 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const passport = require("passport");
 const mongoose = require("mongoose");
+const config = require("./config/database")
 
-mongoose.connect();
+//Connect to database
+mongoose.connect(config.database);
+
+//On connection
+mongoose.connection.on('connected', () => {
+    console.log('Connected to database ' + config.database);
+});
+//On Error
+mongoose.connection.on('error', (err) => {
+    console.log('Database error:  ' + err);
+});
 
 const app = express();
 
