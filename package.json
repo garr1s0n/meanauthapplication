@@ -4,11 +4,22 @@
   "description": "MEAN Stack Authentication App",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "repository" :
   { "type" : "git"
   , "url" : "https://github.com/garr1s0n/meanauthapplication.git"
+  },
+  "dependencies": {
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors":"*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
   },
   "author": "Gary Wilpizeski",
   "license": "ISC"
