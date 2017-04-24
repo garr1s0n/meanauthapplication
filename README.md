@@ -1,7 +1,7 @@
 # meanauthapplication
 MEAN Stack Authentication App
 
-- Mongo
+- MongoDb
 - Express
 - Angular
 - NodeJS
