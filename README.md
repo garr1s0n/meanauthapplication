@@ -15,5 +15,6 @@ MEAN Stack Authentication App
 * nodemon (NodeJS Back End)
 
 **Angular Tab**
+* cd /angular-src
 * ng build (Compile front end to /public/ )
 * ng serve (Run server to display front end)
