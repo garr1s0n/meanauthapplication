@@ -7,18 +7,13 @@ MEAN Stack Authentication App
 - NodeJS
 
 ## Global Packages Required ##
-
-npm install nodemon -g
-
-npm install angular-cli -g
+* npm install nodemon -g
+* npm install angular-cli -g
 
 
 **NodeJS Console Tab**
-
-nodemon (NodeJS Back End)
+* nodemon (NodeJS Back End)
 
 **Angular Tab**
-
-ng build (Compile front end to /public/ )
-
-ng serve (Run server to display front end)
+* ng build (Compile front end to /public/ )
+* ng serve (Run server to display front end)
